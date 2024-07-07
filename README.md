@@ -75,7 +75,7 @@ FROM pizza_sales
 
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/TotalRevenue.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/TotalRevenue.jpg?raw=true">
 </p>
 
 
@@ -87,7 +87,7 @@ FROM pizza_sales
 ```
 
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/averageOrderValue.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/averageOrderValue.jpg?raw=true">
 </p>
 •	Total Pizzas Sold: Count the total number of pizzas sold.
 
@@ -96,7 +96,7 @@ SELECT SUM(quantity) AS Total_Pizza_Sold
 FROM pizza_sales
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/TotalPizzaSold.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/TotalPizzaSold.jpg?raw=true">
 </p>
 
 
@@ -107,7 +107,7 @@ SELECT count(distinct order_id) AS Total_Orders
 FROM pizza_sales
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/TotalOrders.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/TotalOrders.jpg?raw=true">
 </p>
 
 •	Average Pizzas Per Order: Calculate the average number of pizzas sold per order.
@@ -122,7 +122,7 @@ FROM pizza_sales
 
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/AveragePizzaPerOrder.jpg?raw=true ">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/AveragePizzaPerOrder.jpg?raw=true">
 </p>
 
 
@@ -141,7 +141,7 @@ GROUP BY DATEPART(HOUR, order_time)
 ORDER BY DATEPART(HOUR, order_time)
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/HourleyTrendTotalPizza.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/HourleyTrendTotalPizza.jpg?raw=true">
 </p>
 
 ### 2. Weekly Trend of Total Pizzas Sold:
@@ -157,7 +157,7 @@ GROUP BY DATEPART(ISO_WEEK, order_date), YEAR(order_date) --aggregated function 
 ORDER BY DATEPART(ISO_WEEK, order_date), YEAR(order_date) --aggregated function are used as a order by statement (requirement)
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/WeeklyTrendTotalPizzaSold.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/WeeklyTrendTotalPizzaSold.jpg?raw=true">
 </p>
 
 ### 3. Percentage of Total Orders by Pizza Category: 
@@ -175,7 +175,7 @@ GROUP BY pizza_category
 ORDER BY Percentage_OfTotalSales DESC, Total_Sales DESC
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/TotalOrder&PizzaSoldbyPizzaCategory.jpg?raw=true ">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/TotalOrder&PizzaSoldbyPizzaCategory.jpg?raw=true">
 </p>
 
 ### 4. Percentage of Sales by Pizza Size: 
@@ -193,7 +193,7 @@ GROUP BY pizza_size
 ORDER BY pizza_size, Total_Sales DESC
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/PercentageofSalesbyPizzaSize.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/PercentageofSalesbyPizzaSize.jpg?raw=true">
 </p>
 
 ### 5. Top and Bottom Seller Analysis:
@@ -206,7 +206,7 @@ GROUP BY pizza_name
 ORDER BY Total_Revenue DESC 
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Top5PizzabyRevenue.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Top5PizzabyRevenue.jpg?raw=true">
 </p>
 
 •	Bottom 5 Best Seller Pizzas by Revenue: Identify the bottom 5 pizzas generating the lowest revenue.
@@ -217,7 +217,7 @@ GROUP BY pizza_name
 ORDER BY Total_Revenue ASC --to figur out bottom 5 pizza
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Bottom5PizzabyRevenue.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Bottom5PizzabyRevenue.jpg?raw=true">
 </p>
 
 •	Top 5 Best Seller Pizzas by Total Quantity: Identify the top 5 pizzas sold in the highest quantities.
@@ -228,7 +228,7 @@ GROUP BY pizza_name
 ORDER BY Total_Quantity DESC 
 ```
 <p align="center">
-  <img src=" https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Top5PizzabyQuantity.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Top5PizzabyQuantity.jpg?raw=true">
 </p>
 
 •	 Bottom 5 Best Seller Pizzas by Total Quantity: Identify the bottom 5 pizzas sold in the lowest quantities.
@@ -239,7 +239,7 @@ GROUP BY pizza_name
 ORDER BY Total_Quantity ASC --to figur out bottom 5 pizza
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Bottom5PizzabyQuantity.jpg?raw=true ">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Bottom5PizzabyQuantity.jpg?raw=true">
 </p>
 
 •	 Top 5 Best Seller Pizza By Total Orders
@@ -251,7 +251,7 @@ ORDER BY Total_Orders DESC
 Output:
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Top5PizzabyOrders.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Top5PizzabyOrders.jpg?raw=true">
 </p>
 •	 Bottom 5 Best Seller Pizza By Total Orders 
 
@@ -262,7 +262,7 @@ GROUP BY pizza_name
 ORDER BY Total_Orders ASC --to figur out bottom 5 pizza
 ```
 <p align="center">
-  <img src="https://github.com/harunrhimu/SQLProjects/blob/main/Pizza_Sales_Projects/assets/Bottom5PizzabyOrders.jpg?raw=true">
+  <img src="https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/assets/Bottom5PizzabyOrders.jpg?raw=true">
 </p>
 
 
