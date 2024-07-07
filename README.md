@@ -61,7 +61,7 @@ I used several key tools to deep dive in the data analyst.
 
 # The Analysis
 
-The questions are illustrated below want to excute specific business problem in term of car sales issues. 
+The questions are illustrated below want to excute specific business problem in term of Pizza sales issues. 
 
 ### Problem Statement 1: KPI Requirements
 
@@ -270,9 +270,59 @@ ORDER BY Total_Orders ASC --to figur out bottom 5 pizza
 
 
 
-# Car Sales Dashboard Insights 
+
+## Pizza Sales Dashboard Insights
+
+**Key Performance Indicators (KPI)**
+
+- **Total Revenue**: $817.86K
+- **Total Pizzas Sold**: 49.57K
+- **Total Orders**: 21.35K
+- **Average Order Value**: $38.31
+
+**Order Patterns by Time and Week:**
+
+- **Peak Hours**: Orders peak between 12:00 PM and 1:00 PM, and again in the evening from 4:00 PM to 7:00 PM.
+- **Weekly Variations**: Significant fluctuations in weekly orders, with the highest peak occurring during the 48th week of the year, typically in December.
+
+**Category Insights:**
+
+- **Top Category**: The Classic Category leads in sales, total orders, and total pizzas sold.
+
+**Size Insights:**
+
+- **Top Size**: Among total sales Large Size pizza is highest percentage of sales generate which is 45.89%.
+
+**Product Performance by Metrics:**
+
+- **Top and Bottom Pizza sold by Revenue**: 
+The Thai Chicken Pizza is the top contributor which generate $45.43K on the other side The Brie Carre Pizza contributes the least which is $11.59K.
+
+- **Top and Bottom Pizza sold by Quantity**: 
+The Classic Deluxe Pizza has the highest total quantities sold which is generate $2.45K. on the other side The Brie Carre Pizza has the lowest with $490 .
+
+- **Top and Bottom Pizza sold by Total Orders**: 
+The Classic Deluxe Pizza has the highest number of orders with 2329 pizza on the other side The Brie Carre Pizza has the fewest orders with 480.
+
+## Recommendations for Pizza Sales Optimization
+
+Based on the insights from the Pizza Sales Dashboard, here are several recommendations to optimize sales and improve overall performance:
+
+**1. Enhance Peak Hour Operations: **
+Given that orders peak between 12:00 PM - 1:00 PM and 4:00 PM - 7:00 PM, ensure adequate staffing during these hours to handle the higher volume of orders efficiently. Also ensure faster order processing  during peak hours to reduce wait times and improve customer satisfaction.
+**2. Leverage Weekly Peaks: **
+- **Special Promotions:** Capitalize on the high order volume during the 48th week of the year by offering special promotions or limited-time offers. This can further boost sales during this already high-performing week.  Use targeted marketing campaigns in the weeks leading up to this peak period to attract more customers and increase sales.
+**3. Focus on Top Performing Categories and Sizes and Improve low-selling items:**
+Since the Classic Category leads in sales, focus marketing efforts on this category. Offer combo deals this category and Large size of pizza which contributing 45.89% of sales. Consider either rebranding or improving the recipe for the Brie Carre Pizza, which is the lowest performer.
+**5. Maintain Top Performers receiving customer feedback:**
+These pizzas are the top performers in revenue and quantity sold, respectively. Promote them as signature items on the menu. Consider creating promotional campaigns featuring these pizzas to attract more customers. Continuously gather feedback on these top-performing pizzas to ensure they maintain their popularity and address any potential issues promptly.
+
+**6. Seasonal and Event-Based Promotions:**
+Given the peak during the 48th week (typically December), introduce seasonal pizzas or holiday-themed promotions to capitalize on the festive period.
+Organize events or special promotions around major holidays or local events to drive traffic and boost sales.
 
 
-## Recommendations Based on Insights
 
 **Thanks**
+
+
