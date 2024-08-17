@@ -1,8 +1,9 @@
 ## Pizza Sales SQL Queries Presentation with Tableau Dashboard
 ## KPI's & Trends Distributions
-![Full Projects](/SQL_Pizza_Sales_Project_Visualization/KPI_Dashboard.jpg)
+![Full Projects](https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/KPI_Dashboard.jpg))
 ## Best & Worst Sell 
-![best and worst dashboard](/SQL_Pizza_Sales_Project_Visualization/bestworstdashboard.jpg)
+![best and worst dashboard](https://github.com/harunrhimu/SQL_Pizza_Sales_Project_Visualization/blob/main/bestworstdashboard.jpg)
+
 
 ### Background:
 Our pizza chain needs a detailed analysis of our sales performance. To do this, we require SQL queries that will extract and present key metrics from our sales database. This will help us understand our business performance, identify trends, and make informed decisions to improve our operations and profitability.
